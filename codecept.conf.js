@@ -12,7 +12,10 @@ exports.config = {
       url: 'https://app.solarcrm.com',
       show: true,
       browser: 'chromium'
-    }
+    },
+    VerbiageHelper: {
+      require: './helpers/verbiage-helper.js',
+    },
   },
   include: {
     firstUser: './users/first-user-steps.js',
