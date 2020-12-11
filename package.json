@@ -6,6 +6,8 @@
     "playwright": "^1"
   },
   "scripts": {
-    "codeceptjs":  "npx codeceptjs run"
+    "all":  "npx codeceptjs run",
+    "smoke":  "npx codeceptjs run --grep smoke",
+    "run_suite": "npx codeceptjs run --grep $npm_config_suite"
   }
 }
