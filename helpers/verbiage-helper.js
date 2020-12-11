@@ -17,6 +17,10 @@ class VerbiageHelper extends Helper {
   seesInCurrentUrl(url) {
     return this.helpers.Playwright.seeInCurrentUrl(url)
   }
+
+  doesNotSee(text, context) {
+    return this.helpers.Playwright.dontSee(text, context)
+  }
 }
 
 module.exports = VerbiageHelper;

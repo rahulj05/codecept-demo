@@ -16,6 +16,9 @@ exports.config = {
     VerbiageHelper: {
       require: './helpers/verbiage-helper.js',
     },
+    MocksHelper: {
+      require: './helpers/mocks-helper.js',
+    },
   },
   include: {
     firstUser: './users/first-user-steps.js',
